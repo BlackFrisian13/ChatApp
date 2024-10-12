@@ -31,10 +31,12 @@
             android:layout_height="50dp"
             android:layout_weight="80"
             android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/message_box_background"
             android:hint="Type a message" />
 
         <ImageView
+            android:id="@+id/btnSent"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_weight="20"
